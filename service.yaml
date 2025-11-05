@@ -12,5 +12,5 @@ spec:
       app: nodelabexam
   ports:
   -port: 34
-   targetport: 3000
+   targetPort: 3000
   type: NodePort
