@@ -18,4 +18,4 @@ spec:
       -name: nodelabexamcontainer
        image: meghanajshetty/nodelabexamimage:latest
        ports:
-       -container port: 3000 
+       -containerPort: 3000 
