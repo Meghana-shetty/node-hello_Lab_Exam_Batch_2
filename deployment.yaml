@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  Name: "Nodelabexam"
+  name: "Nodelabexam"
   labels:
-    app:nodelabexam
+    app: nodelabexam
 spec:
-  replicas:1
+  replicas: 1
   selector:
-    matchlabel:
-      app:nodelabexam
+    matchLabel:
+      app: nodelabexam
   template:
     metadata:
       labels:
-        app:nodelabexam
+        app: nodelabexam
     spec:
       containers:
       -name: nodelabexamcontainer
