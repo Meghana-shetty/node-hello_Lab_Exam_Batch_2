@@ -1,4 +1,4 @@
-FROM node:16-alphine
+FROM node:latest
 LABEL Name = "Node lab exam"
 WORKDIR /app
 
