@@ -3,13 +3,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  Name: "Nodelabexamsvc"
+  name: "Nodelabexamsvc"
   labels:
-    app:nodelabexamsvc
+    app: nodelabexamsvc
 spec:
   selector:
-    matchlabel:
-      app:nodelabexam
+    matchLabel:
+      app: nodelabexam
   ports:
   -port: 34
    targetport: 3000
