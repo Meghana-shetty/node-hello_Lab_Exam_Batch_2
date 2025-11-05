@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: "Nodelabexam"
+  name: nodelabexam
   labels:
     app: nodelabexam
 spec:
