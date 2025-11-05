@@ -6,8 +6,7 @@ metadata:
     app: nodelabexamsvc
 spec:
   selector:
-    matchLabels:
-      app: nodelabexam
+    app: nodelabexam
   ports:
   - port: 34
     targetPort: 3000
