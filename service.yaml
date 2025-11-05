@@ -9,6 +9,6 @@ spec:
     matchLabels:
       app: nodelabexam
   ports:
-  -port: 34
-   targetPort: 3000
+  - port: 34
+    targetPort: 3000
   type: NodePort
