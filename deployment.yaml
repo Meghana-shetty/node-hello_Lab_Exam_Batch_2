@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  Name: "Nodelabexam"
+  labels:
+    app:nodelabexam
+spec:
+  replicas:1
+  selector:
+    matchlabel:
+      app:nodelabexam
+  template:
+    metadata:
+      labels:
+        app:nodelabexam
+    spec:
+      containers:
+      -name: nodelabexamcontainer
+       image: meghanajshetty/nodelabexamimage:latest
+       ports:
+       -container port: 3000 
