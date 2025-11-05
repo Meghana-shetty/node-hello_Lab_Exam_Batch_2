@@ -8,4 +8,4 @@ RUN npm install --production --silent
 COPY . .
 
 EXPOSE 3000
-STARTPOINT ["npm", "start"]
+ENTRYPOINT ["npm", "start"]
