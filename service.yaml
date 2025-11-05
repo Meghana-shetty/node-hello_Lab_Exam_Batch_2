@@ -1,5 +1,3 @@
-//kubernetes Service file 
-
 apiVersion: v1
 kind: Service
 metadata:
