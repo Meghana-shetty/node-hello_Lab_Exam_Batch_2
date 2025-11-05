@@ -1,0 +1,16 @@
+//kubernetes Service file 
+
+apiVersion: v1
+kind: Service
+metadata:
+  Name: "Nodelabexamsvc"
+  labels:
+    app:nodelabexamsvc
+spec:
+  selector:
+    matchlabel:
+      app:nodelabexam
+  ports:
+  -port: 34
+   targetport: 3000
+  type: NodePort
